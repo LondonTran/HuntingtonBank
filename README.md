@@ -1,16 +1,16 @@
-# huntington
+# HuntingtonBank
 
-A new Flutter application.
+This is my version of a redesigned Huntington Bank mobile app landing page. 
 
-## Getting Started
+I removed the Learn More, Enroll Now, Locations, Contact Us, and Give Feedback options from the user's sight and hid them in a modal bottom sheet. The user can view these options by tapping on the More Options icon at the top right corner of the screen. Doing so pulls up a modal bottom sheet from the bottom of the screen with the five options mentioned earlier. I also combined the Forgot Username and Forgot Password options into one option titled 'Forgot Username or Password?' to reduce the number of options on screen.
 
-This project is a starting point for a Flutter application.
+Developed by London Tran<br>
+https://twitter.com/londontran<br>
+https://www.linkedin.com/in/londontran<br>
 
-A few resources to get you started if this is your first Flutter project:
+Before            |  After 1
+:-------------------------:|:-------------------------:
+<img src="images/huntingtonBefore.jpg" width="500">  |  <img src="images/huntingtonAfter1.jpg" width="500">
+After 2
+<img src="images/huntingtonAfter2.jpg" width="500">
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
