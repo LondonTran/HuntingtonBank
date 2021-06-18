@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:huntington/ui/components/login_container.dart';
+import 'package:huntington/constants.dart';
 
 class LandingScreen extends StatefulWidget {
   static const String id = 'login_screen';
@@ -60,28 +61,59 @@ class _LandingScreenState extends State<LandingScreen> {
   }
 
   void showBottomSheet() => showModalBottomSheet(
+        backgroundColor: Colors.green,
         context: context,
         builder: (context) => Wrap(
           children: <Widget>[
             ListTile(
-              leading: Icon(Icons.book),
-              title: Text('Learn More'),
+              leading: Icon(
+                Icons.book,
+                color: Colors.white,
+              ),
+              title: Text(
+                'Learn More',
+                style: kModalBottomSheetTextStyle,
+              ),
             ),
             ListTile(
-              leading: Icon(Icons.card_membership),
-              title: Text('Enroll Now'),
+              leading: Icon(
+                Icons.card_membership,
+                color: Colors.white,
+              ),
+              title: Text(
+                'Enroll Now',
+                style: kModalBottomSheetTextStyle,
+              ),
             ),
             ListTile(
-              leading: Icon(Icons.location_on_outlined),
-              title: Text('Locations'),
+              leading: Icon(
+                Icons.location_on_outlined,
+                color: Colors.white,
+              ),
+              title: Text(
+                'Locations',
+                style: kModalBottomSheetTextStyle,
+              ),
             ),
             ListTile(
-              leading: Icon(Icons.local_phone_outlined),
-              title: Text('Contact Us'),
+              leading: Icon(
+                Icons.local_phone_outlined,
+                color: Colors.white,
+              ),
+              title: Text(
+                'Contact Us',
+                style: kModalBottomSheetTextStyle,
+              ),
             ),
             ListTile(
-              leading: Icon(Icons.message_outlined),
-              title: Text('Give Feedback'),
+              leading: Icon(
+                Icons.message_outlined,
+                color: Colors.white,
+              ),
+              title: Text(
+                'Give Feedback',
+                style: kModalBottomSheetTextStyle,
+              ),
             ),
           ],
         ),
